@@ -21,18 +21,18 @@ body {
 
 .email-header:hover,
 .email-header:focus,
-.email-footer:hover,
-.email-footer:focus,
-.email-footer-portfolio:hover,
-.email-footer-portfolio:focus,
-.phone-footer:hover,
-.phone-footer:focus,
 .phone-header:hover,
 .phone-header:focus,
 .agency-link:hover,
 .agency-link:focus,
 .contact-link:hover,
 .contact-link:focus,
+.footer-email:hover,
+.footer-email:focus,
+.footer-phone:hover,
+.footer-phone:focus,
+.portfolio-footer-email:hover,
+.portfolio-footer-email:focus,
 .portfolio-link:hover,
 .portfolio-link:focus {
   color: var(--blue-color);
@@ -177,8 +177,8 @@ body {
   width: 200px;
   height: 50px;
   border: none;
-  background: var(--blue-color);
-  color: var(--white-color);
+  background: var(--lightgrey-color);
+  color: var(--secondary-header-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -189,6 +189,12 @@ body {
   cursor: pointer;
   margin: auto;
   display: block;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--blue-color);
+  color: var(--white-color);
 }
 
 /* second section */
