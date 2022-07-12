@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Portfolio</title>
+    <title>WebStudio - Portfolio</title>
   </head>
   <body class="center">
     <header class="header">
@@ -39,12 +39,24 @@
         </nav>
         <ul class="list contact-list">
           <li>
-            <a class="email-header" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+            <a class="email-header" href="mailto:info@devstudio.com">
+              <svg width="16" height="12">
+                <use
+                  href="/goit-markup-hw-04/images/icons.svg#email-icon"
+                ></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li>
-            <a class="phone-header" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="phone-header" href="tel:+48111111111">
+              <svg width="10" height="16">
+                <use
+                  href="/goit-markup-hw-04/images/icons.svg#phone-icon"
+                ></use>
+              </svg>
+              +48 111 111 111
+            </a>
           </li>
         </ul>
       </div>
@@ -217,27 +229,66 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <ul class="list">
-          <li class="footer-logo-item">
-            <a class="footer-logo" href="index.html"
-              >Web<span class="footer-logo-span">Studio</span>
-            </a>
-          </li>
-          <li class="footer-address-item">
-            <address class="footer-address">
-              m. Warszawa, Aleje Jerozolimskie 21
-            </address>
-          </li>
-          <li class="footer-email-item">
-            <a class="portfolio-footer-email" href="mailto:info@example.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="footer-phone-item">
-            <a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
+      <div class="container footercontent">
+        <section>
+          <ul class="list">
+            <li class="footer-logo-item">
+              <a class="footer-logo" href="index.html"
+                >Web<span class="footer-logo-span">Studio</span>
+              </a>
+            </li>
+            <li class="footer-address-item">
+              <address class="footer-address">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </address>
+            </li>
+            <li class="footer-email-item">
+              <a class="portfolio-footer-email" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-phone-item">
+              <a class="footer-phone" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="footer-socialmedia">
+          <p class="footer-socialmedia-header">dołącz do nas</p>
+          <div>
+            <ul class="list footer-socialmedia-items">
+              <li class="footer-socialmedia-item">
+                <svg width="20" height="20">
+                  <use
+                    href="/goit-markup-hw-04/images/icons.svg#instagram-logo"
+                  ></use>
+                </svg>
+              </li>
+              <li class="footer-socialmedia-item">
+                <svg width="20" height="20">
+                  <use
+                    href="/goit-markup-hw-04/images/icons.svg#twitter-logo"
+                  ></use>
+                </svg>
+              </li>
+              <li class="footer-socialmedia-item">
+                <svg width="20" height="20">
+                  <use
+                    href="/goit-markup-hw-04/images/icons.svg#facebook-logo"
+                  ></use>
+                </svg>
+              </li>
+              <li class="footer-socialmedia-item">
+                <svg width="20" height="20">
+                  <use
+                    href="/goit-markup-hw-04/images/icons.svg#linkedin-logo"
+                  ></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
     </footer>
   </body>
